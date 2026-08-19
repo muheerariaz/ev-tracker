@@ -1,0 +1,6 @@
+{
+  "name": "EV Tracker PK",
+  "description": "Gamified electric scooter health monitor, ride tracker, Pakistani EV garage, slope calculator, and battery diagnostics.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
