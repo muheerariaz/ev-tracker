@@ -42,7 +42,6 @@ export const BottomNav: React.FC<BottomNavProps> = ({
 
   const navItems: { id: TabType; label: string; icon: React.ComponentType<{ className?: string }>; badge?: number }[] = [
     { id: 'dashboard', label: t.nav_dashboard || 'Dashboard', icon: LayoutDashboard },
-    { id: 'tracking', label: t.nav_tracking || 'GPS Route', icon: Navigation },
     { id: 'garage', label: t.nav_garage || 'Garage', icon: Bike },
     { id: 'logs', label: t.nav_logs || 'Logs', icon: History },
     { id: 'slope', label: t.nav_slope_tool || 'Slope', icon: TrendingUp },
